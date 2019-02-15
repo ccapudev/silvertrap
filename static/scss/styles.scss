@@ -1,0 +1,11 @@
+@import 'extras/normalize';
+@import 'components/variables';
+@import 'components/mixins';
+
+.row {
+    display: block;
+}
+
+h1{
+    @include flat;
+}
