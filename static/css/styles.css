@@ -303,8 +303,287 @@ template {
 [hidden] {
   display: none; }
 
+*[class^="col-"] {
+  width: 100%; }
+
+.col-5 {
+  width: 5%; }
+
+.col-10 {
+  width: 10%; }
+
+.col-15 {
+  width: 15%; }
+
+.col-20 {
+  width: 20%; }
+
+.col-25 {
+  width: 25%; }
+
+.col-30 {
+  width: 30%; }
+
+.col-35 {
+  width: 35%; }
+
+.col-40 {
+  width: 40%; }
+
+.col-45 {
+  width: 45%; }
+
+.col-50 {
+  width: 50%; }
+
+.col-55 {
+  width: 55%; }
+
+.col-60 {
+  width: 60%; }
+
+.col-65 {
+  width: 65%; }
+
+.col-70 {
+  width: 70%; }
+
+.col-75 {
+  width: 75%; }
+
+.col-80 {
+  width: 80%; }
+
+.col-85 {
+  width: 85%; }
+
+.col-90 {
+  width: 90%; }
+
+.col-95 {
+  width: 95%; }
+
+.col-100 {
+  width: 100%; }
+
+@media screen and (min-width: 0px) {
+  .col-xs-5 {
+    width: 5%; }
+  .col-xs-10 {
+    width: 10%; }
+  .col-xs-15 {
+    width: 15%; }
+  .col-xs-20 {
+    width: 20%; }
+  .col-xs-25 {
+    width: 25%; }
+  .col-xs-30 {
+    width: 30%; }
+  .col-xs-35 {
+    width: 35%; }
+  .col-xs-40 {
+    width: 40%; }
+  .col-xs-45 {
+    width: 45%; }
+  .col-xs-50 {
+    width: 50%; }
+  .col-xs-55 {
+    width: 55%; }
+  .col-xs-60 {
+    width: 60%; }
+  .col-xs-65 {
+    width: 65%; }
+  .col-xs-70 {
+    width: 70%; }
+  .col-xs-75 {
+    width: 75%; }
+  .col-xs-80 {
+    width: 80%; }
+  .col-xs-85 {
+    width: 85%; }
+  .col-xs-90 {
+    width: 90%; }
+  .col-xs-95 {
+    width: 95%; }
+  .col-xs-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 960px) {
+  .col-sm-5 {
+    width: 5%; }
+  .col-sm-10 {
+    width: 10%; }
+  .col-sm-15 {
+    width: 15%; }
+  .col-sm-20 {
+    width: 20%; }
+  .col-sm-25 {
+    width: 25%; }
+  .col-sm-30 {
+    width: 30%; }
+  .col-sm-35 {
+    width: 35%; }
+  .col-sm-40 {
+    width: 40%; }
+  .col-sm-45 {
+    width: 45%; }
+  .col-sm-50 {
+    width: 50%; }
+  .col-sm-55 {
+    width: 55%; }
+  .col-sm-60 {
+    width: 60%; }
+  .col-sm-65 {
+    width: 65%; }
+  .col-sm-70 {
+    width: 70%; }
+  .col-sm-75 {
+    width: 75%; }
+  .col-sm-80 {
+    width: 80%; }
+  .col-sm-85 {
+    width: 85%; }
+  .col-sm-90 {
+    width: 90%; }
+  .col-sm-95 {
+    width: 95%; }
+  .col-sm-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .col-md-5 {
+    width: 5%; }
+  .col-md-10 {
+    width: 10%; }
+  .col-md-15 {
+    width: 15%; }
+  .col-md-20 {
+    width: 20%; }
+  .col-md-25 {
+    width: 25%; }
+  .col-md-30 {
+    width: 30%; }
+  .col-md-35 {
+    width: 35%; }
+  .col-md-40 {
+    width: 40%; }
+  .col-md-45 {
+    width: 45%; }
+  .col-md-50 {
+    width: 50%; }
+  .col-md-55 {
+    width: 55%; }
+  .col-md-60 {
+    width: 60%; }
+  .col-md-65 {
+    width: 65%; }
+  .col-md-70 {
+    width: 70%; }
+  .col-md-75 {
+    width: 75%; }
+  .col-md-80 {
+    width: 80%; }
+  .col-md-85 {
+    width: 85%; }
+  .col-md-90 {
+    width: 90%; }
+  .col-md-95 {
+    width: 95%; }
+  .col-md-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 1500px) {
+  .col-lg-5 {
+    width: 5%; }
+  .col-lg-10 {
+    width: 10%; }
+  .col-lg-15 {
+    width: 15%; }
+  .col-lg-20 {
+    width: 20%; }
+  .col-lg-25 {
+    width: 25%; }
+  .col-lg-30 {
+    width: 30%; }
+  .col-lg-35 {
+    width: 35%; }
+  .col-lg-40 {
+    width: 40%; }
+  .col-lg-45 {
+    width: 45%; }
+  .col-lg-50 {
+    width: 50%; }
+  .col-lg-55 {
+    width: 55%; }
+  .col-lg-60 {
+    width: 60%; }
+  .col-lg-65 {
+    width: 65%; }
+  .col-lg-70 {
+    width: 70%; }
+  .col-lg-75 {
+    width: 75%; }
+  .col-lg-80 {
+    width: 80%; }
+  .col-lg-85 {
+    width: 85%; }
+  .col-lg-90 {
+    width: 90%; }
+  .col-lg-95 {
+    width: 95%; }
+  .col-lg-100 {
+    width: 100%; } }
+
+@media screen and (min-width: 1800px) {
+  .col-xl-5 {
+    width: 5%; }
+  .col-xl-10 {
+    width: 10%; }
+  .col-xl-15 {
+    width: 15%; }
+  .col-xl-20 {
+    width: 20%; }
+  .col-xl-25 {
+    width: 25%; }
+  .col-xl-30 {
+    width: 30%; }
+  .col-xl-35 {
+    width: 35%; }
+  .col-xl-40 {
+    width: 40%; }
+  .col-xl-45 {
+    width: 45%; }
+  .col-xl-50 {
+    width: 50%; }
+  .col-xl-55 {
+    width: 55%; }
+  .col-xl-60 {
+    width: 60%; }
+  .col-xl-65 {
+    width: 65%; }
+  .col-xl-70 {
+    width: 70%; }
+  .col-xl-75 {
+    width: 75%; }
+  .col-xl-80 {
+    width: 80%; }
+  .col-xl-85 {
+    width: 85%; }
+  .col-xl-90 {
+    width: 90%; }
+  .col-xl-95 {
+    width: 95%; }
+  .col-xl-100 {
+    width: 100%; } }
+
 .row {
   display: block; }
+
+.container {
+  display: flex; }
+  .container .debug {
+    min-height: 25px;
+    background-color: grey; }
 
 h1 {
   margin: 0;

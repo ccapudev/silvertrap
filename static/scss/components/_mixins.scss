@@ -2,5 +2,9 @@
     margin: 0;
     padding: 0;
     border: none;
-    
+}
+
+@mixin galp {
+    padding-left: 10px;
+    padding-right: 10px;
 }

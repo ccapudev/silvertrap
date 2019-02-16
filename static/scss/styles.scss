@@ -1,9 +1,18 @@
 @import 'extras/normalize';
 @import 'components/variables';
 @import 'components/mixins';
+@import 'components/grilla';
 
 .row {
     display: block;
+}
+
+.container {
+    display: flex;
+    .debug {
+        min-height: 25px;
+        background-color: grey;
+    }
 }
 
 h1{
