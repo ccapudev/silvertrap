@@ -1,7 +1,7 @@
+@import 'components/variables';
 @import 'extras/normalize';
 @import 'components/fonts';
 @import 'components/icomoon';
-@import 'components/variables';
 @import 'components/mixins';
 @import 'components/grilla';
 @import 'components/atomos';
@@ -10,10 +10,13 @@ body {
     font-family: "Open Sans",sans-serif;
     font-size: 14px;
     color: #444;
+    background-color: #f1f1f1;
 }
 
 a {
     outline: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 input[type="text"] {

@@ -11,6 +11,11 @@
     }
 }
 
+@mixin h-cleaner {
+    margin: 0;
+    padding: 0;
+}
+
 @mixin link {
     @include link-color;
     text-decoration: none;

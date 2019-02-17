@@ -1,6 +1,5 @@
 .icomoon {
-    color: white;
-
+    color: $icon-color-light;
     font-family: 'icomoon' !important;
     speak: none;
     font-style: normal;
@@ -21,6 +20,13 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    &.dark {
+        color: $icon-color-dark;
+    }
+    &.cameleon {
+        color: inherit;
+    }
 }
 
 .icon-star-empty:before {
@@ -47,4 +53,7 @@
 }
 .icon-menu:before {
     content: "\ea7a";
+}
+.icon-settings:before {
+    content: "\e994";
 }

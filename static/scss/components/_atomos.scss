@@ -14,9 +14,6 @@
 }
 
 .iconbox {
-    background-color: white;
-    height: 32px;
-    width: 32px;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -25,13 +22,13 @@
         display: block;
     }
     &.md {
-        span {
+        .icomoon {
             font-size: 22px;
             margin: 5px;
         }
     }
     &.sm {
-        span {
+        .icomoon {
             font-size: 18px;
             margin: 7px;
         }
@@ -40,9 +37,16 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+    &.full-flat {
+        padding: 0px;
+        .icomoon {
+            margin: 0;
+        }
+    }
 }
 
 .tarjeta {
+    background-color: inherit;
     max-width: 320px;
     .info {
         padding-left: 15px;
@@ -56,6 +60,7 @@
 .header {
     border-bottom: 1px solid $main-border-color;
     box-sizing: border-box;
+    background-color: white;
     span {
         color: inherit;
     }
@@ -90,6 +95,7 @@
 
 .buscador {
     input[type="text"] {
+        background-color: inherit;
         border: none;
         width: 100%;
     }
@@ -99,7 +105,6 @@
     max-width: 360px;
     max-height: 52px;
     .thumb {
-        background-color: white;
         text-align: center;
         border-radius: 5px;
         img {
@@ -116,5 +121,38 @@
         strong {
             @include link-color;
         }
+    }
+}
+
+.box {
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: $text-color-light;
+    box-sizing: border-box;
+    .box-header {
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+        h3 {
+            @include h-cleaner;
+            float: left;
+            text-transform: uppercase;
+        }
+        a {
+            float: right;
+        }
+    }
+    .box-body {
+        padding: 10px;
+        canvas {
+            max-width: 100%;
+            background-color: #ccc;
+        }
+    }
+    .box-footer {
+        padding: 10px;
     }
 }
