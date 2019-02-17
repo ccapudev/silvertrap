@@ -12,7 +12,7 @@
     <header class="header">
     <div class="container no-wrap">
         <div class="col-md-10 col-sd-15 col-25 no-galp">
-            <a href="#" class="nav-item dspflex">
+            <a href="#" class="nav-item dspflex" id="openSideBar" onclick="showSideBar()">
                 <div class="col-auto no-galp">
                     <div class="iconbox">
                         <span class="icomoon icon-boards"></span>
@@ -66,6 +66,88 @@
         </div>
     </div>
 </header>
+    <aside class="side-bar">
+    <div class="col-100 g-em a-right close-button">
+        <a href="#" class="action-close" onclick="showSideBar()">
+            <div class="iconbox full-flat sm">
+                <span class="icomoon cameleon icon-close"></span>
+            </div>
+        </a>
+    </div>
+    <div class="option-block">
+        <div class="col-100 no-galp">
+            <div class="tarjeta dspflex">
+    <div class="col-auto no-galp">
+        <div class="star shadow">
+    <span class="icomoon icon-star-full"></span>
+</div>
+    </div>
+    <div class="col-100 info">
+        <strong>Planner Board - Summary</strong>
+        <p>Netguru</p>
+    </div>
+</div>
+        </div>
+    </div>
+    <div class="option-block">
+        <div class="option-tittle">
+            <h3>Filter By: </h3>
+        </div>
+        <div class="col-100 no-galp option-item">
+            <div class="tarjeta dspflex c-purple">
+                <div class="col-auto no-galp icon-container">
+                    <div class="iconbox sm">
+                        <span class="icomoon sm icon-checkmark"></span>
+                    </div>
+                </div>
+                <div class="col-100 info">
+                    <strong>Planner Board - Summary</strong>
+                    <p>Netguru</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-100 no-galp option-item">
+            <div class="tarjeta dspflex c-green disable">
+                <div class="col-auto no-galp icon-container">
+                    <div class="iconbox sm">
+                        <span class="icomoon sm icon-checkmark"></span>
+                    </div>
+                </div>
+                <div class="col-100 info">
+                    <strong>Planner Board - Summary</strong>
+                    <p>Netguru</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-100 no-galp option-item">
+            <div class="tarjeta dspflex c-orange">
+                <div class="col-auto no-galp icon-container">
+                    <div class="iconbox sm">
+                        <span class="icomoon sm icon-checkmark"></span>
+                    </div>
+                </div>
+                <div class="col-100 info">
+                    <strong>Planner Board - Summary</strong>
+                    <p>Netguru</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-100 no-galp option-item">
+            <div class="tarjeta dspflex c-red">
+                <div class="col-auto no-galp icon-container">
+                    <div class="iconbox sm">
+                        <span class="icomoon sm icon-checkmark"></span>
+                    </div>
+                </div>
+                <div class="col-100 info">
+                    <strong>Planner Board - Summary</strong>
+                    <p>Netguru</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</aside>
     <div class="row box-float-container galp-large">
     <div class="container no-wrap head-section">
         <div class="col-100 g-em">
@@ -81,7 +163,7 @@
     </div>
 </div>
         </div>
-        <div class="col-auto g-em">
+        <div class="col-auto g-em full-center">
             
 <div class="link-group">
     <a class="action-button active" href="#">
@@ -193,9 +275,9 @@
     </div>
 </div>
         <div class="tarjeta dspflex">
-    <div class="col-auto no-galp">
-        <div class="star">
-    <span class="icomoon icon-checkmark"></span>
+    <div class="col-auto no-galp icon-container">
+        <div class="iconbox">
+    <span class="icomoon sm icon-checkmark"></span>
 </div>
     </div>
     <div class="col-100 info">
@@ -204,6 +286,7 @@
     </div>
 </div>
     </div>
+    <script src="static/js/main.js"></script>
     <script src="static/js/Chart.bundle.min.js"></script>
 </body>
 </html>
