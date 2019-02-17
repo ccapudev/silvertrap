@@ -1,18 +1,18 @@
 <header class="header">
     <div class="container">
-        <div class="col-10">
+        <div class="col-md-10 col-sd-15 col-25 no-galp">
             <a href="#" class="nav-item dspflex">
                 <div class="col-auto no-galp">
                     <div class="iconbox">
                         <span class="icomoon icon-boards"></span>
                     </div>
                 </div>
-                <div class="col-100 text no-galp">
+                <div class="col-100 text no-galp not-in-sm">
                     <strong>Boards</strong>
                 </div>
             </a>
         </div>
-        <div class="col-40">
+        <div class="col-40 col-sd-25 no-galp  not-in-sm">
             <div class="nav-item dspflex">
                 <div class="col-auto no-galp">
                     <div class="iconbox sm flat">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-50">
+        <div class="col-100 no-galp">
             <a class="nav-item float-right border-left flat" href="#">
                 <div class="col-auto">
                     <div class="iconbox sm">
