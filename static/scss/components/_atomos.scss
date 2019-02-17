@@ -1,7 +1,5 @@
 .star {
     background-color: #0082ff;
-    height: 32px;
-    width: 32px;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -49,6 +47,7 @@
     background-color: inherit;
     max-width: 320px;
     .info {
+        font-size: 14px;
         padding-left: 15px;
         margin: auto;
         p {
@@ -112,6 +111,7 @@
             width: 45px;
             height: 45px;
             border-radius: 16px;
+            box-sizing: content-box;
         }
     }
     .info {
@@ -134,6 +134,7 @@
     box-sizing: border-box;
     box-shadow: 5px 5px 5px #e0e0e0;
     .box-header {
+        font-size: 14px;
         box-sizing: border-box;
         display: inline-block;
         padding: 10px;
@@ -161,12 +162,70 @@
 
 .box-float-container {
     padding: 40px;
+    padding-top: 20px;
+    .head-section {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
     > .container {
         padding: 1em;
         font-size: 15px;
-        @media screen and (max-width: map-get($breakpoints, lg)) {
-            font-size: 10px;            
+        @media screen and (max-width: map-get($breakpoints,xl)) {
+            font-size: 10px;
+        }
+        @media screen and (max-width: map-get($breakpoints,lg)) {
+            font-size: 5px;
+        }
+        @media screen and (max-width: map-get($breakpoints,md)) {
+            font-size: 10px;
+            padding: 0;
+            > div {
+                margin: 1em;
+            }
         }
     }
+    @media screen and (max-width: map-get($breakpoints, lg)) {
+        padding: 20px;
+    }
+    @media screen and (max-width: map-get($breakpoints, sd)) {
+        padding: 10px;
+    }
     
+}
+
+.btn-group {
+    border-collapse: collapse;
+    display: inline-flex;
+}
+.link-group {
+    border-collapse: collapse;
+    display: inline-flex;
+    a:first-child {
+        border-radius: 5px 0px 0px 5px;
+    }
+    a:last-child {
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+.action-button {
+    font-size: 14px;
+    min-width: 125px;
+    display: inline-block;
+    border: 1px solid $main-border-color;
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+    &.active {
+        border: 1px solid white;
+        background-color: white;
+        box-shadow: 5px 5px 5px #e0e0e0;
+        border-radius: 5px;
+    }
+}
+
+.action-close {
+    display: inline-block;
+    padding: 19px 0px;
 }

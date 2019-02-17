@@ -47,3 +47,19 @@ input[type="text"] {
         flex-wrap: nowrap;
     }
 }
+
+.a-center {
+    text-align: center;
+}
+
+.a-left {
+    text-align: left;
+}
+
+.a-right {
+    text-align: right;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
