@@ -30,3 +30,25 @@
         padding-right: 0px;
     }
 }
+
+@mixin galp-large {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    &.no-galp{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+@mixin galp-em {
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+    &.no-galp{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}

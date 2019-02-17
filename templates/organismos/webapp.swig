@@ -1,6 +1,6 @@
-<div class="row">
+<div class="row box-float-container galp-large">
     <div class="container">
-        <div class="col-md-25">
+        <div class="col-md-25 g-em">
             <div class="box">
                 <div class="box-header">
                     <h3>Task completed</h3>
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-50">
+        <div class="col-md-50 g-em">
             <div class="box">
                 <div class="box-header">
                     <h3>Task completed</h3>
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-25">
+        <div class="col-md-25 g-em">
             <div class="box">
                 <div class="box-header">
                     <h3>Task completed</h3>
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="col-md-50">
+        <div class="col-md-50 g-em">
             <div class="box">
                 <div class="box-header">
                     <h3>Task completed</h3>
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-50">
+        <div class="col-md-50 g-em">
             <div class="box">
                 <div class="box-header">
                     <h3>Task completed</h3>
