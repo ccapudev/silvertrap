@@ -1,3 +1,3 @@
-<div class="star">
-    <span class="icomoon icon-checkmark"></span>
+<div class="iconbox">
+    <span class="icomoon sm icon-checkmark"></span>
 </div>

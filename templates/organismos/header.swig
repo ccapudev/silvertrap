@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container no-wrap">
         <div class="col-md-10 col-sd-15 col-25 no-galp">
-            <a href="#" class="nav-item dspflex">
+            <a href="#" class="nav-item dspflex" id="openSideBar" onclick="showSideBar()">
                 <div class="col-auto no-galp">
                     <div class="iconbox">
                         <span class="icomoon icon-boards"></span>

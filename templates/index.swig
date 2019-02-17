@@ -10,11 +10,13 @@
 </head>
 <body>
     {% include 'organismos/header.swig' %}
+    {% include 'organismos/side_bar.swig' %}
     {% include 'organismos/webapp.swig' %}
     <div style="display: none;">
         {% include 'moleculas/tarjeta.swig' %}
         {% include 'moleculas/board_filter.swig' %}
     </div>
+    <script src="{{ STATIC_URL }}js/main.js"></script>
     <script src="{{ STATIC_URL }}js/Chart.bundle.min.js"></script>
 </body>
 </html>

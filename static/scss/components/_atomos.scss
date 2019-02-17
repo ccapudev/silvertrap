@@ -54,6 +54,35 @@
             margin: 0;
         }
     }
+    .icon-container {
+        background-color: $bg-color04;
+        border-radius: 5px;
+    }
+    &.disable {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+    &.c-green {
+        .icon-container {
+            background-color: $bg-color03;
+        }
+    }
+    &.c-orange {
+        .icon-container {
+            background-color: $bg-color07;
+        }
+    }
+    &.c-red {
+        .icon-container {
+            background-color: $bg-color10;
+        }
+    }
+    &.c-purple {
+        .icon-container {
+            background-color: $bg-color14;
+        }
+    }
 }
 
 .header {
@@ -166,6 +195,13 @@
     .head-section {
         padding-top: 15px;
         padding-bottom: 15px;
+        @media screen and (max-width: map-get($breakpoints,sm)) {
+            flex-wrap: wrap-reverse !important;
+            > div.full-center {
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
     > .container {
         padding: 1em;
@@ -228,4 +264,33 @@
 .action-close {
     display: inline-block;
     padding: 19px 0px;
+}
+
+aside.side-bar {
+    transition: all 0.5s ease-out;
+    position: absolute;
+    width: 100%;
+    max-width: 360px;
+    background-color: white;
+    box-shadow: 0px 10px 15px #b1b1b1;
+    min-height: 100%;
+    left: -100%;
+    &.full {
+        top: 0;
+    }
+    .option-block {
+        padding: 35px;
+        .option-tittle {
+            padding-bottom: 15px;
+        }
+        .option-item {
+            padding: 5px 0px;
+        }
+    }
+}
+
+body.sidebar-open {
+    aside.side-bar {
+        left: 0;
+    }
 }

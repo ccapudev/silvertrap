@@ -3,7 +3,7 @@
         <div class="col-100 g-em">
             {% include '../moleculas/tarjeta.swig' %}
         </div>
-        <div class="col-auto g-em">
+        <div class="col-auto g-em full-center">
             {% include '../moleculas/button_group.swig' %}
         </div>
         <div class="col-100 g-em a-right not-in-sd">
