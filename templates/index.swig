@@ -11,7 +11,7 @@
 <body>
     {% include 'organismos/header.swig' %}
     {% include 'organismos/webapp.swig' %}
-    <div>
+    <div style="display: none;">
         {% include 'moleculas/tarjeta.swig' %}
         {% include 'moleculas/board_filter.swig' %}
     </div>
