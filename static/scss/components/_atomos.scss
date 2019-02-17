@@ -1,0 +1,120 @@
+.star {
+    background-color: #0082ff;
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    &.shadow {
+        box-shadow: 2px 2px 8px #7cbfff;
+    }
+    span {
+        font-size: 28px;
+    }
+}
+
+.iconbox {
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    span {
+        font-size: 28px;
+        display: block;
+    }
+    &.md {
+        span {
+            font-size: 22px;
+            margin: 5px;
+        }
+    }
+    &.sm {
+        span {
+            font-size: 18px;
+            margin: 7px;
+        }
+    }
+    &.flat {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.tarjeta {
+    max-width: 320px;
+    .info {
+        padding-left: 15px;
+        margin: auto;
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.header {
+    border-bottom: 1px solid $main-border-color;
+    box-sizing: border-box;
+    span {
+        color: inherit;
+    }
+    .text {
+        margin: auto;
+    }
+    a {
+        @include link;
+        color: $link-color;
+    }
+    .nav-item {
+        padding: 5px;
+        &.float-right {
+            float: right;
+        }
+        &.flat {
+            padding-left: 0;
+            padding-right: 0;
+            > div {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        &.border-left {
+            border-left: 1px solid $main-border-color;
+        }
+        &.border-right {
+            border-right: 1px solid $main-border-color;
+        }
+    }
+}
+
+.buscador {
+    input[type="text"] {
+        border: none;
+        width: 100%;
+    }
+}
+
+.user-box {
+    max-width: 360px;
+    max-height: 52px;
+    .thumb {
+        background-color: white;
+        text-align: center;
+        border-radius: 5px;
+        img {
+            padding: calc(5px / 2);
+            width: 45px;
+            height: 45px;
+            border-radius: 16px;
+        }
+    }
+    .info {
+        padding-left: 5px;
+        margin: auto;
+        margin-left: 0;
+        strong {
+            @include link-color;
+        }
+    }
+}

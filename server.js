@@ -1,8 +1,21 @@
-const express = require('express')
-const path = require('path')
-const port = process.env.PORT || 3000
-const app = express()
+const express = require('express');
+const swig = require('swig');
+const path = require('path');
+const port = process.env.PORT || 3000;
+const app = express();
 
+// agregando motor de template | Swig
+swig.setDefaults({
+  cache: false,
+  // definiedo variables globales
+  locals: {
+    "STATIC_URL": "/static/",
+    "STYLE_LINK": "<link rel=\"stylesheet\" href=\"/static/css/styles.css\">"
+  }
+});
+app.engine("swig", swig.renderFile)
+app.set('views', './templates')
+app.set('view engine', 'swig')
 
 // midleware
 var requestContext = function (req, res, next) {
@@ -11,17 +24,24 @@ var requestContext = function (req, res, next) {
   res.set("request-time", req.requestTime)
   next();
 };
-  
 app.use(requestContext);
 
 // serve static assets normally
 app.use('/static', express.static(__dirname + '/static'))
 
-// handle every other route with index.html, which will contain
-// a script tag to your application's JavaScript file(s).
-app.get('*', function (request, response){
-  response.sendFile(path.resolve(__dirname, 'index.html'))
+// Enrutador
+app.get('/atomos/*', function (request, response){
+  response.render('.'+request.path)
+})
+app.get('/moleculas/*', function (request, response){
+  response.render('.'+request.path)
+})
+app.get('/organismos/*', function (request, response){
+  response.render('.'+request.path)
+})
+app.get('/', function (request, response){
+  response.render('index', {"STYLE_LINK": ""})
 })
 
 app.listen(port)
-console.log("server started on port " + port)
+console.log(`server started on http://127.0.0.1:${port}`)

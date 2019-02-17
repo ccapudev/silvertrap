@@ -7,7 +7,21 @@ $breakpoints: (
 );
 
 *[class^="col-"] {
+    @include galp;
     width: 100%;
+}
+
+.col-auto {
+    width: auto;
+}
+
+.col-float-right {
+    margin-left: auto;
+    order: 2;
+}
+.col-float-left {
+    margin-right: auto;
+    order: 2;
 }
 
 @for $i from 1 through 20 {

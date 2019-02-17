@@ -4,7 +4,24 @@
     border: none;
 }
 
+@mixin link-color {
+    color: $link-color;
+    &:hover {
+        color: $link-color-hover
+    }
+}
+
+@mixin link {
+    @include link-color;
+    text-decoration: none;
+}
+
 @mixin galp {
     padding-left: 10px;
     padding-right: 10px;
+    box-sizing: border-box;
+    &.no-galp{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }

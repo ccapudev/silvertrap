@@ -1,0 +1,50 @@
+.icomoon {
+    color: white;
+
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star-empty:before {
+    content: "\e9d7";
+}
+.icon-star-half:before {
+    content: "\e9d8";
+}
+.icon-star-full:before {
+    content: "\e9d9";
+}
+
+.icon-checkmark:before {
+    content: "\ea10";
+}
+.icon-boards:before {
+    content: "\e92e";
+}
+.icon-search:before {
+    content: "\e986";
+}
+.icon-notify:before {
+    content: "\e951";
+}
+.icon-menu:before {
+    content: "\ea7a";
+}

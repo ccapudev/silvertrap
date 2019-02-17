@@ -4,12 +4,15 @@
   "description": "Enova challenge",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "swig": "^1.4.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node build.js",
+    "sass": "node-sass --watch --output-style compressed static/scss/ --output static/css/"
   },
   "repository": {
     "type": "git",
